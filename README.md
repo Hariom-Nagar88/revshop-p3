@@ -9,7 +9,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        Angular 17 Frontend                          │
-│             (Flipkart-like UI · Responsive · Material Icons)        │
+│                  ( Responsive · Material Icons)        │
 └────────────────────────────┬────────────────────────────────────────┘
                              │ HTTP/REST
                              ▼
