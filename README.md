@@ -1,4 +1,4 @@
-# 🛍️ RevShop — Flipkart-like E-Commerce Platform
+# 🛍️ RevShop — E-Commerce Platform
 
 > Production-ready microservices e-commerce application built with Spring Boot 3, Spring Cloud, and Angular 17.
 
@@ -387,7 +387,3 @@ http://localhost:8085/swagger-ui.html   # payment-service
 3. **Email Notifications**: Configure SMTP credentials in `notification-service.yml` or set `SPRING_MAIL_*` environment variables.
 4. **Stock Management**: Order service calls product service via Feign. If product service is down, circuit breaker activates fallback.
 5. **Seed Products**: After startup, POST to `/api/categories` to create categories, then use seller account to add products.
-
----
-
-*Built with ❤️ — RevShop © 2024*
