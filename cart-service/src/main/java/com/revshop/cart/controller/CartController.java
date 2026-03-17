@@ -24,6 +24,7 @@ public class CartController {
         return ResponseEntity.ok(cartService.getCart(getId(userId)));
     }
 
+    // Add an item to the cart
     @PostMapping("/items")
     public ResponseEntity<CartDto.CartResponse> addItem(
             @RequestHeader(value = "X-User-Id", defaultValue = "0") String userId,
