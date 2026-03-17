@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cart-service
+  config:
+    import: optional:configserver:http://config-server:8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@eureka-server:8761/eureka/
+  instance:
+    prefer-ip-address: true
