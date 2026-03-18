@@ -387,4 +387,4 @@ http://localhost:8085/swagger-ui.html   # payment-service
 3. **Email Notifications**: Configure SMTP credentials in `notification-service.yml` or set `SPRING_MAIL_*` environment variables.
 4. **Stock Management**: Order service calls product service via Feign. If product service is down, circuit breaker activates fallback.
 5. **Seed Products**: After startup, POST to `/api/categories` to create categories, then use seller account to add products.
-6. 
+6. Done
