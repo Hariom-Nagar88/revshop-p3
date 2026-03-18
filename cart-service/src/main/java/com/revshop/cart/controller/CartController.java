@@ -31,6 +31,8 @@ public class CartController {
         return ResponseEntity.status(HttpStatus.CREATED).body(cartService.addToCart(getId(userId), req));
     }
 
+    
+    // Update quantity or details of a specific cart item
     @PutMapping("/items/{itemId}")
     public ResponseEntity<CartDto.CartResponse> updateItem(
             @RequestHeader(value = "X-User-Id", defaultValue = "0") String userId,
